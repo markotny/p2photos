@@ -1,0 +1,7 @@
+{
+  "name": "p2photos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
