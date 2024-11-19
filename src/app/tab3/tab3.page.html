@@ -13,5 +13,13 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-item>
+    <ion-input [(ngModel)]="magnetUri" label="magnet"></ion-input>
+  </ion-item>
+    <ion-fab-button (click)="download()">
+    Download
+  </ion-fab-button>
+  <div>
+    Downloading: {{fileNames}}
+  </div>
 </ion-content>
